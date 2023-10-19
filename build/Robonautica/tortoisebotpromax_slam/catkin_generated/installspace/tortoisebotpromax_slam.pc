@@ -1,0 +1,8 @@
+prefix=/home/siddharth/catkin_workspace/install
+
+Name: tortoisebotpromax_slam
+Description: Description of tortoisebotpromax_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

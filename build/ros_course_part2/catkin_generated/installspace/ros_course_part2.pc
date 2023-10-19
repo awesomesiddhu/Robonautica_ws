@@ -1,0 +1,8 @@
+prefix=/home/siddharth/catkin_workspace/install
+
+Name: ros_course_part2
+Description: Description of ros_course_part2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

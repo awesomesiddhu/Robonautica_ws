@@ -1,0 +1,8 @@
+prefix=/home/siddharth/catkin_workspace/install
+
+Name: turtlebot3node
+Description: Description of turtlebot3node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

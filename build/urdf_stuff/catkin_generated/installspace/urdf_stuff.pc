@@ -1,0 +1,8 @@
+prefix=/home/siddharth/catkin_workspace/install
+
+Name: urdf_stuff
+Description: Description of urdf_stuff
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

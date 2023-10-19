@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+
+<launch>
+  <!-- Arguments -->
+  <arg name="map_file" default="my_map"/>
+  <arg name="move_forward_only" default="true"/>
+  <arg name="exploration" default="false"/>
+
+
+<launch>
+  <!-- Map server for Map-based Navigation-->
+  <group unless="$(arg exploration)">
+    <node pkg="map_server" name="map_server" type="map_server" args="$(find tortoisebotpromax_navigation)/maps/$(arg map_file).yaml"/>
+  </group>
+
+  <!-- Amcl-->
+  <include file="$(find tortoisebotpromax_navigation)/launch/amcl.launch"/>
+
+  <!-- rviz -->
+  <include file="$(find tortoisebotpromax_description)/launch/display.launch"/>
+
+  <!-- move_base -->
+  <include file="$(find tortoisebotpromax_navigation)/launch/move_base.launch">
+    <arg name="move_forward_only" value="$(arg move_forward_only)"/>
+  </include>
+</launch>
+
+
+  
+</launch>

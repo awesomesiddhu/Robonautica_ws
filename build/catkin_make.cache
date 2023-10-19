@@ -1,0 +1,2 @@
+Robonautica/teb_local_planner_tutorials:Robonautica/tortoisebotpromax_description:Robonautica/tortoisebotpromax_firmware:Robonautica/tortoisebotpromax_gazebo:Robonautica/tortoisebotpromax_navigation:Robonautica/tortoisebotpromax_slam:Robonautica/turtlebot3node:Robonautica/ydlidar_ros:realsense2_description:realsense_ros_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/siddharth/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/siddharth/catkin_workspace/install -G Unix Makefiles

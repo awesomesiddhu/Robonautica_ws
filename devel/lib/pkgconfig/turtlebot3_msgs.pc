@@ -1,0 +1,8 @@
+prefix=/home/siddharth/catkin_workspace/devel
+
+Name: turtlebot3_msgs
+Description: Description of turtlebot3_msgs
+Version: 1.0.1
+Cflags: -I/home/siddharth/catkin_workspace/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

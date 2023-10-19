@@ -1,0 +1,8 @@
+prefix=/home/siddharth/catkin_workspace/install
+
+Name: tortoisebotpromax_firmware
+Description: Description of tortoisebotpromax_firmware
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
