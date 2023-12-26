@@ -1,4 +1,4 @@
-README - TortoiseBotProMax Autonomous Navigation
+#TortoiseBotProMax Autonomous Navigation
 
 This repository contains code and instructions for autonomous navigation of a TortoiseBotProMax using various algorithms in ROS. 
 Below, you will find information about the algorithms used, references, completed tasks, and commands to run.
@@ -27,6 +27,7 @@ Tasks Completed:
 
 Commands to Run:
 After bringing up Gazebo model and RViz using given launch files,
+```
 cd catkin_ws/src
 rosrun map_server map_server map.yaml
 roslaunch tortoisebotpromax_navigation amcl.launch
