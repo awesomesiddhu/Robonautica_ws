@@ -31,4 +31,5 @@ cd catkin_ws/src
 rosrun map_server map_server map.yaml
 roslaunch tortoisebotpromax_navigation amcl.launch
 roslaunch tortoisebotpromax_navigation move_base.launch
-python move_to_waypoints.py
+cd Robonautica_ws/Scripts
+python nav_to_waypoints.py
